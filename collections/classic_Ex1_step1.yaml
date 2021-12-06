@@ -10,8 +10,8 @@
   - name: Create a New Tenant
     aci_tenant:
       host: "{{ inventory_hostname }}"
-      username: "{{ ACI_USERNAME }}"
-      password: "{{ ACI_PASSWORD }}"
+      username: "{{ username }}"
+      password: "{{ password }}"
       tenant: "Partner-Training12345"
       description: "Tenant configured by Ansible"
       validate_certs: no
