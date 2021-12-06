@@ -1,6 +1,6 @@
 ---
 - name: Configuring Example Tenant
-  hosts: DMZ 
+  hosts: apic1
   collections:
    - cisco.aci
   connection: local
