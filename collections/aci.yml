@@ -1,0 +1,4 @@
+---
+plugin: zjpeterson.aci.aci_inventory
+host: apic.cisco.demo 
+validate_certs: no
