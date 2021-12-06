@@ -3,4 +3,4 @@ DMZ:
     apic:
       inventory_hostname: 192.168.8.2
       username: admin
-      private_key: Pod2.key
+      password: 12345C1scoUC$
