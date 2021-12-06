@@ -1,4 +1,6 @@
 ---
 plugin: zjpeterson.aci.aci_inventory
-host: apic1.cisco.demo
+host: apic1.cisco.
+username: admin
+password: 12345C1scoUC$
 validate_certs: no
