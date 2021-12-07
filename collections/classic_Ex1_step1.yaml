@@ -1,6 +1,6 @@
 ---
 - name: Configuring Example Tenant
-  hosts: apic1
+  hosts: "{{ lookup('env','ACI_HOST') }}"
   collections:
    - cisco.aci
    - zjpeterson.aci
