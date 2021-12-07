@@ -12,7 +12,7 @@
     aci_tenant:
       host: "{{ lookup('env','ACI_HOST') }}"
       username: "{{ lookup('env','ACI_USERNAME') }}"
-      password: "{{ password }}"
+      password: "{{ lookup('env','ACI_PASSWORD') }}"
       tenant: "Partner-Training12345"
       description: "Tenant configured by Ansible"
       validate_certs: no
