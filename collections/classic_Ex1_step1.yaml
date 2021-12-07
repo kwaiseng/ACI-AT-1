@@ -3,6 +3,7 @@
   hosts: apic1
   collections:
    - cisco.aci
+     zjpeterson.aci
   connection: local
   gather_facts: yes
 
